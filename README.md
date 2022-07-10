@@ -20,3 +20,11 @@ The .tf files in your working directory when you run terraform plan or terraform
 
 # Terraform Import
 Terraform is able to import existing infrastructure. This allows you take resources you've created by some other means and bring it under Terraform management.
+
+Bringing existing infrastructure under Terraform's control involves five main steps:
+
+1- Identify the existing infrastructure to be imported.
+2- Import infrastructure into your Terraform state.
+3- Write Terraform configuration that matches that infrastructure.
+4- Review the Terraform plan to ensure the configuration matches the expected state and infrastructure.
+5- Apply the configuration to update your Terraform state.
